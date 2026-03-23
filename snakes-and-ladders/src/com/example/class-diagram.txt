@@ -1,0 +1,16 @@
+Game
+ |── Board
+ |── Dice
+ |── Queue<Player> players
+ |── List<Player> winners
+
+Board
+ |── Map<Integer, Integer> snakes
+ |── Map<Integer, Integer> ladders
+
+Player
+ |── name
+ |── position
+
+Dice
+ |── roll()
